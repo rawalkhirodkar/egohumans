@@ -1,1 +1,1 @@
-# egohumans
+# EgoHumans
