@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: sdf-pytorch
+Version: 0.0.1
+Summary: PyTorch implementation of SDF loss
+Author: Nikos Kolotouros
+Author-email: nkolot@seas.upenn.edu
+License: MIT License

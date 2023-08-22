@@ -1,0 +1,9 @@
+.idea/
+logs/
+data
+images/
+__pycache__/
+vibe-env/
+output/
+*.mp4
+results
