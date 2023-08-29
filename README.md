@@ -1,14 +1,15 @@
 <div align="center">
 
-<h2><a href="https://arxiv.org/pdf/2305.16487.pdf">EgoHumans: An Egocentric 3D Multi-Human Benchmark</a></h2>
+<h2><a href="https://arxiv.org/pdf/2305.16487.pdf" style="color:#2ecc71;">EgoHumans: An Egocentric 3D Multi-Human Benchmark</a></h2>
+
+<b><font size="4">ICCV 2023 (Oral)</font></b>
 
 [Rawal Khirodkar](https://github.com/rawalkhirodkar)<sup>1</sup>, [Aayush Bansal](https://www.aayushbansal.xyz/)<sup>2</sup>, [Lingni Ma](https://scholar.google.nl/citations?user=eUAgpwkAAAAJ&hl=en/)<sup>2</sup>, [Richard Newcombe](https://scholar.google.co.uk/citations?user=MhowvPkAAAAJ&hl=en)<sup>2</sup>, [Minh Voh](https://minhpvo.github.io/)<sup>2</sup>, [Kris Kitani](https://kriskitani.github.io/)<sup>1</sup>
  
 <sup>1</sup>[CMU](https://www.cmu.edu/), <sup>2</sup>[Meta](https://about.meta.com/)
 
-ICCV 2023 (Oral)
+<p><a href="https://rawalkhirodkar.github.io/egohumans/" style="background-color:#2ecc71; color:white; padding:10px; text-decoration:none; border-radius:5px;">Project Page</a></p>
 
-[Project Page](https://rawalkhirodkar.github.io/egohumans/)
 
 </div>
 
@@ -34,6 +35,8 @@ EgoHumans dataset
 
 ## Overview
 
+<img src="assets/images/fencing.gif" alt="Fencing GIF">
+
 ![summary_tab](assets/overview.png)
 
 
@@ -41,6 +44,10 @@ EgoHumans dataset
 - [🛠️Installation](assets/INSTALL.md)
 - [📘Download Data](assets/DOWNLOAD.md)
 - [👀Visualization](assets/VISUALIZE.md)
+- [💻Data Process](assets/DATA_PROCESS.md)
+
+## Data Processing Toolkit (Coming Soon)
+- ETA September end.
 
 ## Tracking Benchmark (Coming Soon)
 - ETA September end.
@@ -70,3 +77,4 @@ EgoHumans dataset
 - For help and issues associated with EgoHumans, or reporting a bug, please open a [GitHub Issue](https://github.com/rawalkhirodkar/egohumans).
 
 - Please contact [Rawal Khirodkar](https://rawalkhirodkar.github.io/) (`rkhirodk@cs.cmu.edu`) for any queries.
+
