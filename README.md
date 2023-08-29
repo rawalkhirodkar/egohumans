@@ -35,7 +35,10 @@ EgoHumans dataset
 
 ## Overview
 
-<img src="assets/images/fencing.gif" alt="Fencing GIF">
+<center>
+    <img src="assets/images/fencing.gif" alt="Fencing GIF">
+</center>
+
 
 ![summary_tab](assets/overview.png)
 
