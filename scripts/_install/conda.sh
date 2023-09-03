@@ -31,7 +31,7 @@ pip install -v -e .
 echo -e "\e[32mMMPose installation success\e[0m"
 
 # ## install mmhuman3d
-cd ,,/mmhuman3d
+cd ../mmhuman3d
 pip install -v -e .
 echo -e "\e[32mMMHuman3D installation success\e[0m"
 
