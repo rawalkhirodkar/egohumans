@@ -4,7 +4,7 @@
 
 <b><font size="4">ICCV 2023 (Oral)</font></b>
 
-[Rawal Khirodkar](https://github.com/rawalkhirodkar)<sup>1</sup>, [Aayush Bansal](https://www.aayushbansal.xyz/)<sup>2</sup>, [Lingni Ma](https://scholar.google.nl/citations?user=eUAgpwkAAAAJ&hl=en/)<sup>2</sup>, [Richard Newcombe](https://scholar.google.co.uk/citations?user=MhowvPkAAAAJ&hl=en)<sup>2</sup>, [Minh Voh](https://minhpvo.github.io/)<sup>2</sup>, [Kris Kitani](https://kriskitani.github.io/)<sup>1</sup>
+[Rawal Khirodkar](https://github.com/rawalkhirodkar)<sup>1</sup>, [Aayush Bansal](https://www.aayushbansal.xyz/)<sup>2</sup>, [Lingni Ma](https://scholar.google.nl/citations?user=eUAgpwkAAAAJ&hl=en/)<sup>2</sup>, [Richard Newcombe](https://scholar.google.co.uk/citations?user=MhowvPkAAAAJ&hl=en)<sup>2</sup>, [Minh Vo](https://minhpvo.github.io/)<sup>2</sup>, [Kris Kitani](https://kriskitani.github.io/)<sup>1</sup>
  
 <sup>1</sup>[CMU](https://www.cmu.edu/), <sup>2</sup>[Meta](https://about.meta.com/)
 
