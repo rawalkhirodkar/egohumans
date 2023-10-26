@@ -49,14 +49,18 @@ EgoHumans dataset
 - [👀Visualization](assets/VISUALIZE.md)
 - [💻Data Process](assets/DATA_PROCESS.md)
 
-## Data Processing Toolkit (Coming Soon)
-- ETA September end.
 
-## Tracking Benchmark (Coming Soon)
-- ETA September end.
+## Tracking Benchmark
+- 
 
-## EgoFormer Training/Testing (Coming Soon)
-- ETA September end.
+## SimpleBaseline and EgoFormer Evaluation
+- 
+
+## Detection Benchmark
+- 
+
+## 2D Pose Benchmark
+- 
 
 ## BibTeX & Citation
 

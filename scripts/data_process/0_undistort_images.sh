@@ -5,7 +5,6 @@ RUN_FILE='tools/data_process/undistort_images.py'
 # SEQUENCE_ROOT_DIR='~/Desktop/egohumans/data'
 SEQUENCE_ROOT_DIR='/media/rawalk/disk1/rawalk/datasets/ego_exo/camera_ready'
 
-
 ###------------------------------------------------------------------
 ## The variable $MODE can be either ['all', 'exo', 'ego']. To undistort all, exo or ego cameras.
 
