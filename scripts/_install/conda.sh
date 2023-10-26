@@ -38,6 +38,14 @@ echo -e "\e[32mMMHuman3D installation success\e[0m"
 # ## install pycococreator
 cd ../pycococreator
 python setup.py install
+cd ..
 
 ## install other dependencies
 pip install hdbscan yacs Rtree pyntcloud pyvista python-fcl pykalman torchgeometry colour pycolmap flask timm
+
+## install mmtracking
+cd ../mmtracking
+pip install -v -e .
+pip install numpy --upgrade
+cd ..
+echo -e "\e[32mMMTracking installation success\e[0m"

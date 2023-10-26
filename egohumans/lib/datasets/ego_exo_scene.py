@@ -39,7 +39,7 @@ try:
     from models.smplify import SMPLify
 
 except:
-    print('Cannot import mmhuman3d, you should be inside mmpose conda environment!')
+    print('Cannot import mmhuman3d!')
 
 ## needed for consistent pyntcloud plane fitting
 np.random.seed(0) ## seed the numpy so that the results are reproducible

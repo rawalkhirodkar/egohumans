@@ -35,9 +35,9 @@ EgoHumans dataset
 
 ## Overview
 
-<center>
+<div style="text-align:center;">
     <img src="assets/images/fencing.gif" alt="Fencing GIF">
-</center>
+</div>
 
 
 ![summary_tab](assets/overview.png)
@@ -50,17 +50,19 @@ EgoHumans dataset
 - [💻Data Process](assets/DATA_PROCESS.md)
 
 
-## Tracking Benchmark
-- 
+## Supported Benchmarks
+- [📦Bounding Box Detection](assets/DETECTION.md)
+- [🕺2D Pose Estimation](assets/POSE2D.md)
+- [🛤️Tracking](assets/TRACKING.md): Official benchmark from main paper.
+- [🚶‍♂️Mesh Recovery]: Coming Soon!
+- [🔭Novel View Synthesis]: Coming Soon!
 
 ## SimpleBaseline and EgoFormer Evaluation
 - 
 
-## Detection Benchmark
-- 
-
-## 2D Pose Benchmark
-- 
+## Create your own Benchmark
+- [📷Image Tasks](assets/COCO_IMAGE.md)
+- [📹Video Tasks](assets/COCO_VIDEO.md)
 
 ## BibTeX & Citation
 
@@ -74,7 +76,7 @@ EgoHumans dataset
 ```
 
 ## Acknowledgement
-[Aria Toolkit](https://github.com/facebookresearch/projectaria_tools), [COLMAP](https://github.com/colmap/colmap), [mmpose](https://github.com/open-mmlab/mmpose/tree/main), [mmhuman3D](https://github.com/open-mmlab/mmhuman3d), [CLIFF](https://github.com/haofanwang/CLIFF), [timm](https://github.com/rwightman/pytorch-image-models), [detectron2](https://github.com/facebookresearch/detectron2), [mmcv](https://github.com/open-mmlab/mmcv), [mmdet](https://github.com/open-mmlab/mmdetection).
+[Aria Toolkit](https://github.com/facebookresearch/projectaria_tools), [COLMAP](https://github.com/colmap/colmap), [mmpose](https://github.com/open-mmlab/mmpose/tree/main), [mmhuman3D](https://github.com/open-mmlab/mmhuman3d), [CLIFF](https://github.com/haofanwang/CLIFF), [timm](https://github.com/rwightman/pytorch-image-models), [detectron2](https://github.com/facebookresearch/detectron2), [mmcv](https://github.com/open-mmlab/mmcv), [mmdet](https://github.com/open-mmlab/mmdetection), [mmtrack](https://github.com/open-mmlab/mmtracking).
 
 
 
@@ -82,6 +84,5 @@ EgoHumans dataset
 ## Contact
 
 - For help and issues associated with EgoHumans, or reporting a bug, please open a [GitHub Issue](https://github.com/rawalkhirodkar/egohumans).
-
-- Please contact [Rawal Khirodkar](https://rawalkhirodkar.github.io/) (`rkhirodk@cs.cmu.edu`) for any queries.
+- Please contact [Rawal Khirodkar](https://rawalkhirodkar.github.io/) (`rawalk@meta.com`) for any queries.
 
