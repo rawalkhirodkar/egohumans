@@ -25,6 +25,8 @@ mkdir 01_tagging
 cd 01_tagging
 tar -xzvf 004_tagging.tar.gz --strip-components=8
 ```
+- Download the COCO style annotation files for the EgoHumans test set from [benchmark](https://drive.google.com/drive/folders/1cz1P-fO5bkZSbGhCqE1sABDIHHA74JWz?). 
+Place the folder under the ```./data``` directory. We use the sequences ```01_tagging```, ```02_legoassemble``` and ```03_fencing``` as our test set.
 
 - You data directory structure should look like.
 
@@ -58,4 +60,19 @@ ${ROOT}
             |-- poses2d
             |-- poses3d
             |-- refine_poses3d
+    benchmark
+    |-- 01_tagging:02_legoassemble:03_fencing
+        |-- all
+            |-- coco
+                |-- person_keypoints_ego_rgb.json
+                |-- person_keypoints_ego_slam.json
+                |-- person_keypoints_exo.json
+            |-- coco_track
+                |-- tracking_ego_rgb.json
+                |-- tracking_ego_slam.json
+                |-- tracking_exo.json
+                |-- detections_ego_rgb.pkl
+                |-- detections_ego_slam.pkl
+                |-- detections_exo.pkl
+
 ```

@@ -90,7 +90,7 @@ class TopDownCocoDataset(Kpt2dSviewRgbImgTopDownDataset):
         self.vis_thr = data_cfg['vis_thr']
 
         self.db = self._get_db()
-        self.db = self.db[:200]; print('\033[91m' + 'Warning: Only use 200 samples for debug!!' + '\033[0m')
+        # self.db = self.db[:200]; print('\033[91m' + 'Warning: Only use 200 samples for debug!!' + '\033[0m') # uncomment this line for debug
 
         print(f'=> num_images: {self.num_images}')
         print(f'=> load {len(self.db)} samples')

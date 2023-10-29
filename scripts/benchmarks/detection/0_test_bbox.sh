@@ -7,22 +7,22 @@ RUN_FILE='./tools/dist_test.sh'
 ## feel free to change the configuration and checkpoint names supported by mmdetection
 # Checkout other options here: https://github.com/rawalkhirodkar/egohumans/tree/main/egohumans/external/mmdetection/configs/faster_rcnn
 
-# ## Option 1
-CONFIG_FILE='configs/faster_rcnn/faster_rcnn_x101_64x4d_fpn_2x_coco.py'
-CHECKPOINT='https://download.openmmlab.com/mmdetection/v2.0/faster_rcnn/faster_rcnn_x101_64x4d_fpn_2x_coco/faster_rcnn_x101_64x4d_fpn_2x_coco_20200512_161033-5961fa95.pth'
-
-## Option 2
+## Option 1
 # CONFIG_FILE='configs/faster_rcnn/faster_rcnn_r50_fpn_2x_coco.py'
 # CHECKPOINT='https://download.openmmlab.com/mmdetection/v2.0/faster_rcnn/faster_rcnn_r50_fpn_2x_coco/faster_rcnn_r50_fpn_2x_coco_bbox_mAP-0.384_20200504_210434-a5d8aa15.pth'
+
+# ## Option 2
+CONFIG_FILE='configs/faster_rcnn/faster_rcnn_x101_64x4d_fpn_2x_coco.py'
+CHECKPOINT='https://download.openmmlab.com/mmdetection/v2.0/faster_rcnn/faster_rcnn_x101_64x4d_fpn_2x_coco/faster_rcnn_x101_64x4d_fpn_2x_coco_20200512_161033-5961fa95.pth'
 
 # ###------------------------------------------------------------------
 SEQUENCE_ROOT_DIR='/media/rawalk/disk1/rawalk/datasets/ego_exo/camera_ready'
 SAVE_BIG_SEQUENCE_NAME='01_tagging:02_legoassemble:03_fencing' ## save dir name for the annotations
 
 ## pick a eval mode
-MODE='ego_rgb'
+# MODE='ego_rgb'
 # MODE='ego_slam'
-# MODE='exo'
+MODE='exo'
 
 SEQUENCES='all'; DEVICES=0,1,2,3,
 
@@ -49,3 +49,6 @@ CUDA_VISIBLE_DEVICES=${DEVICES} PORT=${PORT} ${RUN_FILE} ${CONFIG_FILE} ${CHECKP
     --out $OUTPUT_FILE \
     --eval 'bbox'
 
+echo $CONFIG_FILE
+echo $CHECKPOINT
+echo $MODE

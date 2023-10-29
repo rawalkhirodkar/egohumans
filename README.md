@@ -54,8 +54,8 @@ EgoHumans dataset
 - [📦Bounding Box Detection](assets/DETECTION.md)
 - [🕺2D Pose Estimation](assets/POSE2D.md)
 - [🛤️Tracking](assets/TRACKING.md): Official benchmark from main paper.
-- [🚶‍♂️Mesh Recovery]: Coming Soon!
-- [🔭Novel View Synthesis]: Coming Soon!
+- 🚶‍♂️Mesh Recovery: Coming Soon!
+- 🔭Novel View Synthesis: Coming Soon!
 
 ## SimpleBaseline and EgoFormer Evaluation
 - 
@@ -77,7 +77,6 @@ EgoHumans dataset
 
 ## Acknowledgement
 [Aria Toolkit](https://github.com/facebookresearch/projectaria_tools), [COLMAP](https://github.com/colmap/colmap), [mmpose](https://github.com/open-mmlab/mmpose/tree/main), [mmhuman3D](https://github.com/open-mmlab/mmhuman3d), [CLIFF](https://github.com/haofanwang/CLIFF), [timm](https://github.com/rwightman/pytorch-image-models), [detectron2](https://github.com/facebookresearch/detectron2), [mmcv](https://github.com/open-mmlab/mmcv), [mmdet](https://github.com/open-mmlab/mmdetection), [mmtrack](https://github.com/open-mmlab/mmtracking).
-
 
 
 
