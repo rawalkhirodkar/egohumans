@@ -58,7 +58,7 @@ EgoHumans dataset
 - 🔭Novel View Synthesis: Coming Soon!
 
 ## SimpleBaseline and EgoFormer Evaluation
-- 
+- Coming soon!
 
 ## Create your own Benchmark
 - [📷Image Tasks](assets/COCO_IMAGE.md)

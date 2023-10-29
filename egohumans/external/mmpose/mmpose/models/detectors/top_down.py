@@ -281,7 +281,7 @@ class TopDown(BasePose):
                 bbox_labels.append(res.get('label', None))
             pose_result.append(res['keypoints'])
 
-        if bbox_result:
+        if bbox_result and bbox_color is not None:
             bboxes = np.vstack(bbox_result)
             # draw bounding boxes
             imshow_bboxes(
