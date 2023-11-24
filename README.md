@@ -54,11 +54,6 @@ EgoHumans dataset
 - [📦Bounding Box Detection](assets/DETECTION.md)
 - [🕺2D Pose Estimation](assets/POSE2D.md)
 - [🛤️Tracking](assets/TRACKING.md): Official benchmark from main paper.
-- 🚶‍♂️Mesh Recovery: Coming Soon!
-- 🔭Novel View Synthesis: Coming Soon!
-
-## SimpleBaseline and EgoFormer Evaluation
-- Coming soon!
 
 ## Create your own Benchmark
 - [📷Image Tasks](assets/COCO_IMAGE.md)

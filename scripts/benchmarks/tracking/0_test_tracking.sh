@@ -24,8 +24,8 @@ USE_GT_BBOX=false;
 # METHOD='tracktor'
 # METHOD='ocsort' 
 # METHOD='bytetrack'
-METHOD='simplebaseline'
-# METHOD='egoformer'
+# METHOD='simplebaseline'
+METHOD='egoformer'
 
 # ####--------------------------------------------------------------------
 # USE_GT_BBOX=true;
