@@ -84,11 +84,6 @@ def run(input_path, output_path, model_path, model_type="large", optimize=True):
     model.eval()
     
     if optimize==True:
-        # rand_example = torch.rand(1, 3, net_h, net_w)
-        # model(rand_example)
-        # traced_script_module = torch.jit.trace(model, rand_example)
-        # model = traced_script_module
-    
         if device == torch.device("cuda"):
             model = model.to(memory_format=torch.channels_last)  
             model = model.half()
@@ -126,7 +121,6 @@ def run(input_path, output_path, model_path, model_type="large", optimize=True):
             print("{}  processing {} ({}/{})".format(aria_name, img_name, ind + 1, num_images))
 
             # input
-
             img = utils.read_image(img_name)
             img_input = transform({"image": img})["image"]
 

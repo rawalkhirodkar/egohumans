@@ -4,6 +4,7 @@ import sys
 import re
 import cv2
 import numpy as np
+import os
 from mmcv.parallel import DataContainer as DC
 from mmdet.datasets.builder import PIPELINES
 from mmdet.datasets.pipelines import to_tensor
@@ -381,7 +382,10 @@ class VideoCollect(object):
                 img_meta[key] = extrinsics
 
             if key == 'depth_path':
-                depth, scale = read_pfm(img_meta[key])
+                depth_path = img_meta[key]
+                if results['img_prefix'] is not None or results['img_prefix'] != '':
+                    depth_path = os.path.join(results['img_prefix'], depth_path)
+                depth, scale = read_pfm(depth_path)
                 img_meta['depth'] = depth
 
         data['img_metas'] = img_meta

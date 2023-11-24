@@ -46,6 +46,7 @@ class CocoVideoDataset(CocoDataset):
         super().__init__(*args, **kwargs)
         self.logger = get_root_logger()
 
+
     def load_annotations(self, ann_file):
         """Load annotations from COCO/COCOVID style annotation file.
 

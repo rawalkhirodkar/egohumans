@@ -4,7 +4,7 @@ We provide annotation conversion scripts to convert our annotations into the mor
 This allows you to use our annotations with pre-existing methods and codebases for training and testing.
 
 Additionally, you can skip this step by downloading the annotation files for our test set from [link](https://drive.google.com/drive/folders/1cz1P-fO5bkZSbGhCqE1sABDIHHA74JWz?usp=sharing).
-Please download the ```benchmarks``` folder and place under ```./data``` at the same level as other big sequence folders like ```01_tagging ... 07_tennis```.
+Please download the ```benchmark``` folder and place under ```./data``` at the same level as other big sequence folders like ```01_tagging ... 07_tennis```.
 
 ## Converting a single sub-sequence annotations to the COCO Format
 
@@ -25,7 +25,7 @@ chmod +x 0_convert_to_coco_image_format.sh
 
 ## Concatenating multiple sub-sequence annotations into a single COCO file
 
-- We combine annotations from multiple subsequences into single json files for each of use.
+- We combine annotations from multiple subsequences into single json files for ease of use.
 - Please use the provided annotation concatenation script under ```./scripts/benchmarks/create_image_benchmarks/1_concatenate_coco_image_format.sh```
 - Modify the variable ```$SEQUENCE_ROOT_DIR``` to point to the absolute path to the data.
 - Modify the variable ```SAVE_BIG_SEQUENCE_NAME``` to be a ```:``` separated list of all the big sequences you wish to concatenate.
