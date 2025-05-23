@@ -41,7 +41,7 @@ pip install -v -e .
 ```
 
 ```shell
-cd ,,/mmhuman3d
+cd ../mmhuman3d
 pip install -v -e .
 ```
 
